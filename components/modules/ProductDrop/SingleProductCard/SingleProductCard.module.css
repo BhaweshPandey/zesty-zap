@@ -1,0 +1,10 @@
+.badge{
+    border-bottom-right-radius: var(--mantine-radius-md);
+}
+.badge-rtl{
+    border-bottom-left-radius: var(--mantine-radius-md);
+}
+.add-to-cart{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}

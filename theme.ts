@@ -1,0 +1,80 @@
+import { createTheme } from '@mantine/core';
+
+export const theme = createTheme({
+  /* Put your mantine theme override here */
+
+  colors: {
+    'blue': [
+      '#2babe2',
+      '#304756',
+      '#2ba9e0',
+      '#279dcf',
+      '#2c414f',
+      '#304756',
+      '#304756',
+      '#304756',
+      '#304756',
+      '#304756',
+    ],
+    'green':[
+      '#66c3a2',
+      '#5db294',
+      '#66c3a2',
+      '#66c3a2',
+      '#66c3a2',
+      '#66c3a2',
+      '#66c3a2',
+      '#66c3a2',
+      '#66c3a2',
+      '#66c3a2',
+    ],
+    'gray':[
+      '#c6c6c6',
+      '#f8f8f9',
+      '#f2f2f2',
+      '#ececec',
+      '#c6c6c6',
+      '#c6c6c6',
+      '#c6c6c6',
+      '#c6c6c6',
+      '#c6c6c6',
+      '#c6c6c6',
+    ],
+    'white':[
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+      '#ffffff',
+    ],
+    'black':[
+      '#000000',
+      '#141414',
+      '#000000',
+      '#000000',
+      '#000000',
+      '#000000',
+      '#000000',
+      '#000000',
+      '#000000',
+      '#000000',
+    ],
+    'yellow':[
+      '#ffe300',
+      '#ffd600',
+      '#ffe300',
+      '#ffe300',
+      '#ffe300',
+      '#ffe300',
+      '#ffe300',
+      '#ffe300',
+      '#ffe300',
+      '#ffe300',
+    ]
+  }
+});

@@ -1,0 +1,1475 @@
+.outerContainer {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: 4;
+  }
+  .textVideoaFirstOuterContainer {
+    width: 100%;
+    z-index: 9;
+    height: 100vh;
+  }
+  .innerContainer {
+    width: 95%;
+    margin-inline: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .headerSection {
+    width: '100%';
+    z-index: 99;
+  }
+  .languagePreferenceSection {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .registerHereButton {
+    width: clamp(160px, calc(160 / 1366 * 100vw), 100vw);
+    height: clamp(48px, calc(48 / 651 * 100vh), 100vh);
+  }
+  .registerHereButtonWidth {
+    width: clamp(160px, calc(160 / 1366 * 100vw), 100vw);
+  }
+  .videoTextSection {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-color: transparent;
+    z-index: 4;
+    align-self: center;
+  }
+  .securePaymentSection {
+    width: 41%;
+    padding-inline: 60px;
+    flex-direction: column;
+    z-index: 4;
+    background-color: transparent;
+  }
+  .securePaymentText {
+    width: clamp(300px, calc(550 / 1366 * 100vw), 750px);
+    margin-top: 40px;
+  }
+  .videoOuterSection {
+    background-color: transparent;
+    width: 65%;
+    height: 100%;
+    z-index: -1;
+  }
+  .videoOuterContainer {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: transparent;
+  }
+  .video {
+    width: 122%;
+    height: 110%;
+    transform: scale(1.1);
+    outline: none;
+  }
+  .btnText {
+    width: clamp(160px, calc(160 / 1366 * 100vw), 220px);
+    height: clamp(48px, calc(48 / 651 * 100vh), 60px);
+  }
+  .newRegistrationWidth {
+    width: clamp(160px, calc(160 / 1366 * 100vw), 220px);
+  }
+  .checkInBtn {
+    width: clamp(107px, calc(107 / 1366 * 100vw), 107px);
+    height: clamp(48px, calc(48 / 651 * 100vh), 60px);
+  }
+  .checkInButtonWidth {
+    width: clamp(107px, calc(107 / 1366 * 100vw), 107px);
+  }
+  .downArrowIcon {
+    margin-top: 3px;
+  }
+  .outerWrapper {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .giftAndShopInnerContainer {
+    width: 94%;
+    margin: auto;
+    gap: 40px;
+    justify-content: center;
+    padding-inline: 44px;
+    padding-top: 40px;
+    display: flex;
+  }
+  .outerLayerShopContainer {
+    width: 60%;
+  }
+  .outerLayerGiftsContainer {
+    width: 40%;
+  }
+  .outerLayerLoanSection {
+    width: 40%;
+  }
+  .outerLayerCalculatorSection {
+    width: 60%;
+  }
+  .languageDropdown {
+    position: absolute;
+    right: 0px;
+    top: clamp(60px, calc(60 / 651 * 100vh), 100vh);
+    width: clamp(134px, calc(134 / 1366 * 100vw), 100vw);
+    height: clamp(80px, calc(80 / 651 * 100vh), 100vh);
+    border-radius: clamp(27px, calc(27 / 1366 * 100vw), 100vw);
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #c6c6c6;
+    box-shadow: 0 0 2vw 0 rgba(0, 0, 0, 0.08);
+  }
+  .languageDropdownInnerContainer {
+    flex-direction: column;
+  }
+  .newRegistrationBefore {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .newRegistrationHoverBefore {
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .newRegistrationAfter {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .newRegistrationHoverAfter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .menuNavlinkBefore {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+    display: flex;
+    width: 100%;
+    align-self: start;
+  }
+  .menuNavlinkHoverBefore {
+    position: absolute;
+    top: -60%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+    display: flex;
+    width: 100%;
+    align-self: start;
+  }
+  .menuNavlinkAfter {
+    position: absolute;
+    top: 140%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+    display: flex;
+    width: 100%;
+    align-self: start;
+  }
+  .menuNavlinkHoverAfter {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+    display: flex;
+    width: 100%;
+    align-self: start;
+  }
+  .languageSection {
+    align-self: end;
+    width: clamp(95px, calc(95 / 1366 * 100vw), 110px);
+    height: clamp(48px, calc(48 / 651 * 100vh), 60px);
+  }
+  .languageSectionShadow {
+    align-self: end;
+    width: clamp(95px, calc(95 / 1366 * 100vw), 110px);
+    height: clamp(48px, calc(48 / 651 * 100vh), 60px);
+    box-shadow: 0 0 2vw 0 rgba(0, 0, 0, 0.08);
+  }
+  .appStoreBefore {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .appStoreHoverBefore {
+    position: absolute;
+    top: -40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .appStoreAfter {
+    position: absolute;
+    top: 140%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .appStoreHoverAfter {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transition: 0.25s;
+  }
+  .downloadAppButtonContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .shopContainer {
+    border-radius: 1.875vw;
+    z-index: 3;
+    height: clamp(450px, calc(450 / 651 * 100vh), 100vh);
+    margin-top: 70px;
+  }
+  .greatPartnerSpacing {
+    margin-top: clamp(20px, calc(25 / 651 * 100vh), 100vh);
+    width: clamp(300px, calc(300 / 1366 * 100vw), 100vw);
+  }
+  .shopIcon {
+    width: clamp(196px, calc(211 / 1366 * 100vw), 300px);
+    height: clamp(170px, calc(185 / 651 * 100vh), 100vh);
+  }
+  .shopInnerContainer {
+    display: flex;
+    flex-direction: column !important;
+    padding-inline: 40px;
+    margin-block: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .shopLeftContainer {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .textSection {
+    flex-direction: column;
+  }
+  .bottomSection {
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: 15px;
+  }
+  .imageSection {
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .giftsContainer {
+    border-radius: 1.875vw;
+    padding-inline: 38px;
+    flex-direction: row;
+    padding-block: 44px;
+    justify-content: space-between;
+    height: clamp(450px, calc(450 / 651 * 100vh), 100vh);
+    margin-top: 70px;
+  }
+  .giftsLeftContainer {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .textSection {
+    flex-direction: column;
+  }
+  .giftsImageSection {
+    width: clamp(96px, calc(96 / 1366 * 100vw), 150px);
+    height: clamp(25px, calc(25 / 651 * 100vh), 100vh);
+    background-size: contain;
+  }
+  .giftCard {
+    margin-top: clamp(20px, calc(20 / 651 * 100vh), 100vh);
+  }
+  .giftCardForYourself {
+    width: clamp(184px, calc(184 / 1366 * 100vw), 400px);
+    margin-top: clamp(22px, calc(22 / 651 * 100vh), 100vh);
+  }
+  .giftCardPlaneImage {
+    width: clamp(146px, calc(196 / 1366 * 100vw), 400px);
+    height: clamp(120px, calc(170 / 651 * 100vh), 100vh);
+  }
+  .bottomSectionLookCloser {
+    margin-bottom: clamp(10px, calc(10 / 651 * 100vh), 100vh);
+  }
+  .bottomSection {
+    align-items: center;
+  }
+  .giftsRightImageSection {
+    align-self: flex-end;
+  }
+  .loanContainer {
+    height: clamp(450px, calc(450 / 651 * 100vh), 100vh);
+    border-radius: 1.875vw;
+    padding-inline: 38px;
+    flex-direction: row;
+    padding-block: 44px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .loanLeftContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  .textContainer {
+    flex-direction: column;
+  }
+  .loanBottomSection {
+    align-self: end;
+    margin-bottom: 20px;
+  }
+  .applyForLoan {
+    width: clamp(184px, calc(184 / 1366 * 100vw), 100vw);
+    margin-top: clamp(20px, calc(22 / 651 * 100vh), 100vh);
+  }
+  .loanBottomImageSection {
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .loanCalculatorOuterContainer {
+    width: 94%;
+    margin: auto;
+    gap: 40px;
+    justify-content: center;
+    padding-inline: 44px;
+    padding-top: 40px;
+  }
+  .bottomSectionShopContainer {
+    align-self: end;
+    margin-bottom: 20px;
+  }
+  .calculatorOuterContainer {
+    height: clamp(450px, calc(450 / 651 * 100vh), 100vh);
+    border-radius: 1.875vw;
+    z-index: 3;
+    position: relative;
+  }
+  .calculatorInnerContainer {
+    padding-inline: 40px;
+    margin-block: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+  }
+  .calculatorBottomRightImageSection {
+    width: 100%;
+    justify-content: space-between;
+    align-self: flex-end;
+  }
+  .loanLeftSection {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .loanSectionImage {
+    width: clamp(196px, calc(196 / 1366 * 100vw), 400px);
+    height: clamp(170px, calc(170 / 651 * 100vh), 100vh);
+  }
+  .calculatorBottomLeftTextSection {
+    flex-direction: row;
+    align-self: end;
+    margin-bottom: 20px;
+  }
+  .outerCardContainer {
+    gap: 10vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 150vh;
+  }
+  .calculatorImage {
+    width: clamp(196px, calc(196 / 1366 * 100vw), 400px);
+    height: clamp(170px, calc(170 / 651 * 100vh), 100vh);
+  }
+  .netgiroCalculatorCostText {
+    width: clamp(280px, calc(280 / 1366 * 100vw), 500px);
+    margin-top: clamp(20px, calc(20 / 651 * 100vh), 100vh);
+  }
+  .cardOne {
+    top: 50%;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87.5%;
+    height: clamp(545px, calc(545 / 651 * 100vh), 735px);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.875vw;
+  }
+  .cardTwo {
+    top: 230%;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87.5%;
+    height: clamp(545px, calc(545 / 651 * 100vh), 735px);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.875vw;
+  }
+  .cardThree {
+    top: 250%;
+    z-index: 999;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87.5%;
+    height: clamp(545px, calc(545 / 651 * 100vh), 735px);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.875vw;
+  }
+  .splitIt {
+    width: 100%;
+  }
+  .withNetgiroText {
+    margin-top: clamp(26px, calc(26 / 651 * 100vh), 100vh);
+    width: clamp(400px, calc(400 / 1366 * 100vw), 100vw);
+  }
+  .upperSpace {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .verticalLine:after {
+    content: '|';
+    color: hsla(0, 0%, 100%, 0.5);
+    margin-inline: 8px;
+  }
+  .menuBarSection {
+    position: fixed;
+    z-index: 9;
+    border-radius: 2.1875rem;
+  }
+  .menuBarItems {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    overflow: visible;
+  }
+  .menuButtonSection {
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 7px;
+    height: 100%;
+    align-items: center;
+  }
+  .menuBarIcon {
+    width: 64px;
+    height: 46px;
+    margin-left: 10px;
+    z-index: 99999;
+  }
+  .hamburgerButton {
+    height: 54px;
+    width: 54px;
+    border-radius: 50px;
+    overflow: visible;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+  }
+  .hamburgerLines {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15px;
+  }
+  .menuBarContentOuterSection {
+    padding-inline: 24px;
+    width: clamp(350px, calc(350 / 1366 * 100vw), 100vw);
+  }
+  .headerMenubarIcon {
+    width: clamp(70px, calc(70 / 1366 * 100vw), 100vw);
+    height: clamp(45px, calc(45 / 651 * 100vh), 100vh);
+  }
+  .menuBarContentInnerSection {
+    flex-direction: column;
+    height: 100%;
+    width: 400px;
+    justify-content: space-between;
+    padding-block: 10px 20px;
+  }
+  .menuBarContentInnerHeadSection {
+    width: clamp(400px, calc(400 / 1366 * 100vw), 450px);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menuBarLogoSection {
+    gap: 10px;
+    align-items: center;
+    width: 125px;
+    justify-content: space-between;
+  }
+  .menuNavLinks {
+    flex-direction: column;
+    justify-content: space-between;
+    height: clamp(300px, calc(300 / 651 * 100vh), 350px);
+    margin-top: clamp(-32px, calc(-32 / 651 * 100vh), 100vh);
+  }
+  .firstCardLeftSection {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstCardLeftTextSection {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardTwoLeftImageSection {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondCardRightTextSection {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardThreeLeftTextSection {
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: clamp(60px, calc(60 / 1366 * 100vw), 100vw);
+  }
+  .cardThreeImageSection {
+    position: relative;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 545px;
+  }
+  .distributeSectionImage {
+    position: absolute;
+    right: 200px;
+    top: 132px;
+    transform-origin: center;
+  }
+  .cardThreeBackgroundImageSection {
+    align-items: center;
+    position: absolute;
+    right: 72px;
+    scale: 1;
+    width: 634px;
+    height: 634px;
+  }
+  .downloadAppContainer {
+    width: 90%;
+    margin-top: clamp(607px, calc(607 / 651 * 100vh), 100vh);
+    height: clamp(545px, calc(545 / 651 * 100vh), 100vh);
+    margin-inline: auto;
+    border-radius: 1.875vw;
+    z-index: 2;
+  }
+  .downloadAppTextLeftSection {
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .downloadAppTextWidth {
+    width: clamp(450px, calc(450 / 1366 * 100vw), 650px);
+  }
+  .appStoreTextWidth{
+    width:clamp(140px, calc(140 / 1366 * 100vw), 165px);;
+  }
+  .downloadAppTextLeftSectionWidth {
+    width: clamp(370px, calc(370 / 1366 * 100vw), 100vw);
+    margin-top: clamp(27px, calc(27 / 651 * 100vh), 100vh);
+  }
+  .downloadAppRightSection {
+    width: 60%;
+  }
+  .moreQuestionsAndAnswersWidth{
+  width:400px;
+  }
+  .appStoreOuterContainer {
+    align-items: center;
+    flex-direction: row;
+  }
+  .googlePlayContainer {
+    align-items: center;
+  }
+  .googlePlayIconContainer {
+    position: absolute;
+    left: 18px;
+  }
+  .appleIconContainer {
+    position: absolute;
+    left: 20px;
+  }
+  .downloadApp {
+    width: clamp(138px, calc(138 / 1366 * 100vw), 100vw);
+    height: clamp(48px, calc(48 / 651 * 100vh), 100vh);
+  }
+  .mobileFirstSection {
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 40px;
+    position: relative;
+  }
+  .statusBar {
+    height: 18px;
+    width: 60px;
+    border-radius: 50px;
+    z-index: 99999;
+    transform: perspective(700px) rotate3d(0, -200, 100, -15deg);
+    position: absolute;
+    right: 452px;
+    top: 90px;
+  }
+  .statusBarTwo {
+    height: 18px;
+    width: 60px;
+    border-radius: 50px;
+    z-index: 99999;
+    transform: perspective(700px) rotate3d(0, -200, 100, 9deg);
+    position: absolute;
+    right: 110px;
+    top: -50px;
+  }
+  .leftMobileContainer {
+    margin-top: 72px;
+    position: absolute;
+    right: 300px;
+    transform: perspective(700px) rotate3d(0, -200, 100, -37deg);
+    border-radius: 44px;
+    border-left: 10px solid #141414;
+    border-top: 0px solid #141414;
+    border-bottom: 0px solid #141414;
+    border-right: 0px solid #141414;
+  }
+  .leftPhoneCss {
+    border-radius: 40px;
+    border-left: 7px solid #212121;
+    border-top: 7px solid #212121;
+    border-bottom: 7px solid #212121;
+    border-right: 7px solid #212121;
+    width: 230px;
+    height: 480px;
+  }
+  .rightMobileOuterContainer {
+    position: absolute;
+    margin-top: -70px;
+    transform: perspective(700px) rotate3d(0, -200, 100, 25deg);
+    border-radius: 48px;
+    border-left: 0px solid #141414;
+    border-top: 0px solid #141414;
+    border-bottom: 0px solid #141414;
+    border-right: 11px solid #141414;
+    transform-style: preserve-3d;
+  }
+  .rightPhone {
+    border-radius: 40px;
+    border-left: 10px solid #212121;
+    border-top: 10px solid #212121;
+    border-bottom: 10px solid #212121;
+    border-right: 8px solid #212121;
+    width: 250px;
+    height: 540px;
+  }
+  .questionOuterContainer {
+    width: 90%;
+    margin: auto;
+    padding-top: 200px;
+    justify-content: space-between;
+  }
+  .questionLeftContainer {
+    width: 30%;
+    flex-direction: column;
+  }
+  .questionAccordionSection {
+    width: 100%;
+    margin-inline: auto;
+    border-radius: 10px;
+    padding-inline: 16px;
+    flex-direction: column;
+    padding-block: 18px;
+    margin-top: 20px;
+  }
+  .questionAccordionInnerSection {
+    width: 70%;
+    flex-direction: column;
+  }
+  .questionAnswerContent {
+    justify-content: space-between;
+  }
+  .accordionIcon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .plusIcon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .marquee {
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #f8f8f9;
+  }
+  .footer {
+    height: 99vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: -100;
+    flex-direction: column;
+  }
+  .footerFirstSection {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: clamp(105px, calc(105 / 651 * 100vh), 100vh);
+  }
+  .websiteLogo {
+    width: clamp(128px, calc(128 / 1366 * 100vw), 100vw);
+    height: clamp(118px, calc(128 / 651 * 100vh), 100vw);
+  }
+  .logoSection {
+    display: flex;
+    flex: 1;
+  }
+  .netgyroContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .openingHourContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .beInTouchContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .sectionSeparator {
+    width: 90%;
+    border: 0;
+    border-top: 0.0625rem solid hsla(0, 0%, 100%, 0.2);
+    margin-top: 30px;
+  }
+  .secondSection {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 45px;
+    margin-bottom: 55px;
+  }
+  .individualContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .whereCanIShopContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .priceListContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .footerLogo {
+    width: clamp(150px, calc(150 / 1366 * 100vw), 100vw);
+    height: clamp(60px, calc(60 / 651 * 100vh), 100vh);
+    margin-top: clamp(8px, calc(8 / 651 * 100vh), 100vh);
+  }
+  .fixedFooter {
+    height: 90vh;
+  }
+  .netgiroOwnedContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .footerCompanyDescription {
+    margin-block: 20px;
+    height: 130px;
+    width: 90%;
+    margin-inline: auto;
+    align-items: center;
+  }
+  .footerDescriptionLeftSection {
+    display: flex;
+    flex: 4;
+    cursor: pointer;
+    align-items: center;
+  }
+  .footerTextTopFiveSpacing {
+    margin-top: clamp(5px, calc(5 / 651 * 100vh), 100vh);
+  }
+  .footerTextTopThreeSpacing {
+    margin-top: clamp(3px, calc(3 / 651 * 100vh), 100vh);
+  }
+  .footerTextTopSpace {
+    margin-top: clamp(7px, calc(7 / 651 * 100vh), 100vh);
+  }
+  .socialMediaIconContainer {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    cursor: pointer !important;
+    z-index: 10000;
+  }
+  .anyQuestion {
+    width: 150px;
+  }
+  .findQuestions {
+    width: clamp(250px, calc(250 / 1366 * 100vw), 100vw);
+    margin-top: clamp(35px, calc(35 / 651 * 100vh), 100vh);
+  }
+  .moreQuestionsAndAnswersButton {
+    width: clamp(270px, calc(270 / 1366 * 100vw), 100vw);
+    height: clamp(48px, calc(48 / 651 * 100vh), 100vh);
+    margin-top: clamp(35px, calc(35 / 651 * 100vh), 100vh);
+  }
+  .questionAnswerItem {
+    align-self: center;
+  }
+  
+  .questionAnswerItem:hover {
+    cursor: pointer;
+  }
+  .comfortableSectionPic {
+    width: clamp(600px, calc(650 / 1366 * 100vw), 100vw);
+    height: clamp(550px, calc(600 / 651 * 100vh), 100vh);
+  }
+  .shopSectionImage {
+    width: 600px;
+    height: 550px;
+  }
+  .useNetgiro {
+    margin-top: clamp(26px, calc(26 / 651 * 100vh), 100vh);
+    width: clamp(380px, calc(380 / 1366 * 100vw), 100vw);
+  }
+  .splitPayments {
+    margin-top: 26px;
+  }
+  .registrationAndLanguageSection {
+    position: relative;
+    width: clamp(370px, calc(370 / 1366 * 100vw), 420px);
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 620px) {
+    .outerCardContainer {
+      width: 100vw;
+      overflow: hidden;
+    }
+    .cardThreeImageSection {
+      position: relative;
+      width: 300px !important;
+      margin-inline: auto;
+      height: 300px !important;
+    }
+    .distributeSectionImage {
+      position: absolute;
+      top: 79px !important;
+      left: 80px !important;
+      width: 165px !important;
+      height: 165px !important;
+    }
+    .cardThreeBackgroundImageSection {
+      position: absolute;
+      left: -9px;
+      width: 318px !important;
+      height: 318px !important;
+    }
+  }
+  
+  @media screen and (max-width: 724px) {
+    .securePaymentText {
+      margin-top: 40px;
+    }
+    .videoOuterSection {
+      height: 700px;
+      margin-top: 200px;
+      order: 1;
+      scale: 3;
+      margin-inline: auto;
+    }
+    .btnText {
+      display: none;
+    }
+    .checkInBtn {
+      display: none;
+    }
+    .securePaymentSection {
+      padding-inline: 10px;
+    }
+    .videoOuterSection {
+      height: 700px;
+      margin-top: 200px;
+      order: 1;
+      scale: 3;
+    }
+    .menuBarContentInnerSection {
+      flex-direction: column;
+      height: 587px;
+      width: 300px;
+      max-width: 400px;
+      justify-content: space-between;
+      padding-block: 10px 20px;
+    }
+    .languageSection {
+      align-self: end;
+    }
+    .languageSectionShadow {
+      align-self: end;
+      box-shadow: 0 0 2vw 0 rgba(0, 0, 0, 0.08);
+    }
+    .registrationAndLanguageSection {
+      justify-content: flex-end;
+    }
+    .footerFirstSection {
+      flex-direction: column;
+    }
+    .logoSection {
+      margin-inline: auto;
+    }
+    .netgyroContainer {
+      margin-top: 15px;
+    }
+    .openingHourContainer {
+      margin-top: 15px;
+    }
+    .beInTouchContainer {
+      margin-top: 15px;
+    }
+    .secondSection {
+      flex-direction: column;
+      margin-top: 25px;
+      margin-bottom: 0px;
+    }
+    .menuBarContentInnerHeadSection {
+      width: 300px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer {
+      margin-top: -30px;
+      position: static;
+      left: 0;
+      bottom: 0;
+      flex-direction: column;
+      height: auto;
+    }
+    .netgiroOwnedContainer {
+      margin-block: 0px;
+      height: 100px;
+    }
+    .footerLogo {
+      width: 90px;
+      height: 60px;
+      margin-top: 8px;
+    }
+    .footerCompanyDescription {
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .footerDescriptionLeftSection {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .socialMediaIconContainer {
+      align-self: start;
+    }
+    .fixedFooter {
+      height: 0vh;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .statusBar {
+      height: 18px;
+      width: 60px;
+      /* background-color: #141414; */
+      border-radius: 50px;
+      z-index: 99999;
+      transform: perspective(700px) rotate3d(0, -200, 100, -15deg);
+      position: absolute;
+      right: 165px;
+      top: 90px;
+    }
+    .statusBarTwo {
+      height: 18px;
+      width: 60px;
+      /* background-color: #141414; */
+      border-radius: 50px;
+      z-index: 99999;
+      transform: perspective(700px) rotate3d(0, -200, 100, 9deg);
+      position: absolute;
+      right: -150px;
+      top: -50px;
+    }
+    .leftMobileContainer {
+      margin-top: 72px;
+      position: absolute;
+      right: 10px;
+      transform: perspective(700px) rotate3d(0, -200, 100, -37deg);
+      border-radius: 44px;
+      border-left: 10px solid #141414;
+      border-top: 0px solid #141414;
+      border-bottom: 0px solid #141414;
+      border-right: 0px solid #141414;
+    }
+    .leftPhoneCss {
+      border-radius: 40px;
+      border-left: 7px solid #212121;
+      border-top: 7px solid #212121;
+      border-bottom: 7px solid #212121;
+      border-right: 7px solid #212121;
+    }
+    .rightMobileOuterContainer {
+      position: absolute;
+      right: -220px;
+      margin-top: -70px;
+      transform: perspective(700px) rotate3d(0, -200, 100, 25deg);
+      border-radius: 48px;
+      border-left: 0px solid #141414;
+      border-top: 0px solid #141414;
+      border-bottom: 0px solid #141414;
+      border-right: 11px solid #141414;
+      transform-style: preserve-3d;
+    }
+    .rightPhone {
+      border-radius: 40px;
+      border-left: 10px solid #212121;
+      border-top: 10px solid #212121;
+      border-bottom: 10px solid #212121;
+      border-right: 8px solid #212121;
+    }
+    .downloadAppContainer {
+      border-radius: 28px;
+      flex-direction: column;
+      margin-bottom: 120px;
+    }
+    .downloadAppTextLeftSection {
+      width: 100%;
+    }
+    .mobileFirstSection {
+      width: 100%;
+    }
+    .questionOuterContainer {
+      margin-top: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .videoTextSection {
+      flex-direction: column;
+      height: 1050px;
+    }
+    .textVideoaFirstOuterContainer {
+      height: 1050px;
+    }
+    .securePaymentSection {
+      order: 2;
+      height: 1500px;
+    }
+    .videoOuterSection {
+      height: 700px;
+      margin-top: 200px;
+      order: 1;
+      scale: 2;
+      margin-inline: auto;
+    }
+    .videoOuterContainer {
+      width: 100%;
+      height: 100%;
+    }
+    .video {
+      width: 100%;
+      height: 100%;
+      outline: none;
+    }
+    .outerLayerShopContainer {
+      width: 100%;
+    }
+    .outerLayerGiftsContainer {
+      width: 100%;
+    }
+    .outerLayerLoanSection {
+      width: 100%;
+    }
+    .outerLayerCalculatorSection {
+      width: 100%;
+    }
+    .giftAndShopInnerContainer {
+      flex-direction: column;
+      padding-inline: 0px;
+    }
+    .shopContainer {
+      z-index: 2;
+      margin-top: 70px;
+      border-radius: 28px;
+      flex-direction: row;
+    }
+    .giftsContainer {
+      margin-top: 70px;
+      border-radius: 28px;
+      padding-inline: 10px;
+    }
+    .loanCalculatorOuterContainer {
+      flex-direction: column;
+      padding-inline: 0px;
+    }
+    .loanContainer {
+      flex-direction: column !important;
+      border-radius: 28px;
+      padding-inline: 10px;
+    }
+    .applyForLoan {
+      width: 100%;
+      /* margin-top:15px; */
+    }
+    .calculatorOuterContainer {
+      border-radius: 28px;
+    }
+    .questionOuterContainer {
+      flex-direction: column;
+      margin-inline: auto;
+    }
+    .questionLeftContainer {
+      width: 100%;
+    }
+    .anyQuestion {
+      width: 100%;
+    }
+    .findQuestions {
+      width: 100%;
+      margin-top: 35px;
+    }
+    .questionAccordionInnerSection {
+      width: 100%;
+      flex-direction: column;
+    }
+    .cardOne {
+      flex-direction: column;
+      margin-inline: auto;
+      border-radius: 28px;
+    }
+    .cardTwo {
+      flex-direction: column;
+      margin-inline: auto;
+      border-radius: 28px;
+    }
+    .cardThree {
+      flex-direction: column;
+      border-radius: 28px;
+    }
+    .firstCardLeftSection {
+      width: 100%;
+    }
+    .comfortableSectionPic {
+      width: 400px;
+      height: 280px;
+    }
+    .firstCardLeftTextSection {
+      width: 100%;
+      padding-inline: 20px;
+    }
+    .withNetgiroText {
+      margin-top: 26px;
+      width: 100%;
+      padding-inline: 20px;
+    }
+    .shopSectionImage {
+      width: 420px;
+      height: 340px;
+    }
+    .cardTwoLeftImageSection {
+      width: 100%;
+    }
+    .secondCardRightTextSection {
+      width: 100%;
+      padding-inline: 20px;
+    }
+    .useNetgiro {
+      width: 100%;
+      margin-top: 26px;
+    }
+    .cardThreeLeftTextSection {
+      width: 100%;
+      padding-inline: 20px;
+      margin-top: 20px;
+    }
+    .splitIt {
+      width: 100%;
+    }
+    .splitPayments {
+      margin-top: 26px;
+      width: 100%;
+    }
+    .calculatorInnerContainer {
+      padding-inline: 10px;
+    }
+    .downloadAppContainer {
+      border-radius: 28px;
+      flex-direction: column;
+      margin-bottom: 120px;
+    }
+    .downloadAppTextLeftSection {
+      width: 100%;
+    }
+    .mobileFirstSection {
+      width: 100%;
+    }
+    .netgiroCalculatorText {
+      width: 100%;
+    }
+    .netgiroCalculatorCostText {
+      width: 100%;
+    }
+    .statusBar {
+      height: 18px;
+      width: 60px;
+      background-color: #141414;
+      border-radius: 50px;
+      z-index: 99999;
+      transform: perspective(700px) rotate3d(0, -200, 100, -15deg);
+      position: absolute;
+      right: 165px;
+      top: 90px;
+    }
+    .statusBarTwo {
+      height: 18px;
+      width: 60px;
+      background-color: #141414;
+      border-radius: 50px;
+      z-index: 99999;
+      transform: perspective(700px) rotate3d(0, -200, 100, 9deg);
+      position: absolute;
+      right: -150px;
+      top: -50px;
+    }
+    .leftMobileContainer {
+      margin-top: 72px;
+      position: absolute;
+      right: 10px;
+      transform: perspective(700px) rotate3d(0, -200, 100, -37deg);
+      border-radius: 44px;
+      border-left: 10px solid #141414;
+      border-top: 0px solid #141414;
+      border-bottom: 0px solid #141414;
+      border-right: 0px solid #141414;
+    }
+    .leftPhoneCss {
+      border-radius: 40px;
+      border-left: 7px solid #212121;
+      border-top: 7px solid #212121;
+      border-bottom: 7px solid #212121;
+      border-right: 7px solid #212121;
+    }
+    .rightMobileOuterContainer {
+      position: absolute;
+      right: -220px;
+      margin-top: -70px;
+      transform: perspective(700px) rotate3d(0, -200, 100, 25deg);
+      border-radius: 48px;
+      border-left: 0px solid #141414;
+      border-top: 0px solid #141414;
+      border-bottom: 0px solid #141414;
+      border-right: 11px solid #141414;
+      transform-style: preserve-3d;
+    }
+    .rightPhone {
+      border-radius: 40px;
+      border-left: 10px solid #212121;
+      border-top: 10px solid #212121;
+      border-bottom: 10px solid #212121;
+      border-right: 8px solid #212121;
+    }
+    .shopInnerContainer {
+      padding-inline: 10px;
+    }
+  
+    .cardThree {
+      flex-direction: column;
+    }
+    .downloadAppTextLeftSection {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .downloadAppTextLeftSectionWidth {
+      width: 100%;
+      padding-top: 20px;
+      padding-inline: 40px;
+    }
+    .downloadAppRightSection {
+      width: 60%;
+    }
+    .leftPhoneCss {
+      border-radius: 30px;
+      border-left: 7px solid #212121;
+      border-top: 7px solid #212121;
+      border-bottom: 7px solid #212121;
+      border-right: 7px solid #212121;
+      width: 150px;
+      height: 300px;
+    }
+    .rightPhone {
+      border-radius: 30px;
+      border-left: 10px solid #212121;
+      border-top: 10px solid #212121;
+      border-bottom: 10px solid #212121;
+      border-right: 8px solid #212121;
+      width: 160px;
+      height: 340px;
+    }
+    .leftMobileContainer {
+      margin-top: 62px;
+      position: absolute;
+      right: 20px;
+      transform: perspective(700px) rotate3d(0, -200, 100, -37deg);
+      border-radius: 35px;
+      border-left: 6px solid #141414;
+      border-top: 0px solid #141414;
+      border-bottom: 0px solid #141414;
+      border-right: 0px solid #141414;
+    }
+    .rightMobileOuterContainer {
+      position: absolute;
+      right: -115px;
+      margin-top: 10px;
+      transform: perspective(700px) rotate3d(0, -200, 100, 25deg);
+      border-radius: 30px;
+      border-left: 0px solid #141414;
+      border-top: 0px solid #141414;
+      border-bottom: 0px solid #141414;
+      border-right: 4px solid #141414;
+      transform-style: preserve-3d;
+    }
+    .statusBar {
+      height: 12px;
+      width: 50px;
+      background-color: #141414;
+      border-radius: 50px;
+      z-index: 99999;
+      transform: perspective(700px) rotate3d(0, -200, 100, -25deg);
+      position: absolute;
+      right: 108px;
+      top: 78px;
+    }
+    .statusBarTwo {
+      height: 12px;
+      width: 50px;
+      background-color: #141414;
+      border-radius: 50px;
+      z-index: 99999;
+      transform: perspective(700px) rotate3d(0, -200, 100, 15deg);
+      position: absolute;
+      right: -85px;
+      top: 25px;
+    }
+  }
+  
+  @media screen and (min-width: 1600px) {
+    .menuBarContentInnerSection {
+      width: 450px;
+    }
+    .menuBarContentOuterSection {
+      width: 900px;
+    }
+    .questionAccordionSection {
+      padding-top: 30px;
+      align-self: center;
+    }
+    .videoOuterSection {
+      background-color: transparent;
+      width: 62%;
+      height: 100%;
+      z-index: -1;
+      margin-left: 12px;
+    }
+    .footer {
+      height: 95vh;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      z-index: -100;
+      flex-direction: column;
+    }
+    .fixedFooter {
+      height: 90vh;
+    }
+  
+    .mobileFirstSection {
+      width: 100%;
+      justify-content: flex-end;
+      padding-right: 40px;
+      position: relative;
+      top: 120px;
+      right: 50px;
+    }
+    .cardThreeImageSection {
+      position: relative;
+      width: 60%;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      height: 800px;
+    }
+    .distributeSectionImage {
+      position: absolute;
+      right: 352px;
+      top: 212px;
+      width: 390px;
+      height: 390px;
+      transform-origin: center;
+    }
+    .cardThreeBackgroundImageSection {
+      align-items: center;
+      position: absolute;
+      top: 0%;
+      right: 200px;
+      scale: 1;
+      width: 750px;
+      height: 750px;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .giftAndShopInnerContainer {
+      gap: 50px;
+    }
+  }
+  
